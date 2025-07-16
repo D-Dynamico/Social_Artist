@@ -654,7 +654,7 @@ section {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-180px * 6 - 3rem * 5)); /* Half the total width */
+    transform: translateX(calc(-180px * 6 - 3rem * 5)); 
   }
 }
 
@@ -667,12 +667,10 @@ section {
   }
 }
 
-/* Pause animation on hover */
 .brands-marquee:hover .brands-track {
   animation-play-state: paused;
 }
 
-/* Responsive adjustments for brands */
 @media (max-width: 768px) {
   .brands-track {
     gap: 1.5rem;
